@@ -54,8 +54,23 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 @media screen and (min-width: 600px) {
 
+#one {
+      flex: 50%;
+      height: 50vw;
+      width: 50vw;
+  }
+#two {
+        flex: 50%;
+        height: 50vw;
+        width: 50vw;
+    }
+#three {
+      flex: 100%;
+
+    }
 }
 
 @media screen and (min-width: 800px) {
+
 
 }
