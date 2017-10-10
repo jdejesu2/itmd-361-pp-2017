@@ -72,5 +72,21 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 @media screen and (min-width: 800px) {
 
+  #one {
+        flex: 33.333333%;
+        height: 33.333333vw;
+        width: 33.333333vw;
+    }
+  #two {
+        flex: 33.333333%;
+        height: 33.333333vw;
+        width: 33.333333vw;
+      }
+  #three {
+        flex: 33.333333%;
+        height: 33.333333vw;
+        width: 33.333333vw;
+      }
+  }
 
 }
