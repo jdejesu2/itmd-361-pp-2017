@@ -10,20 +10,18 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* ===== BASE STYLES ===== */
 
 /* ==== MODULAR STYLES === */
-#three,
-#two,
-#one {
-  color: white;
-}
 
 #three {
   background-color: purple;
+  order: 3;
 }
 #two {
   background-color: green;
+  order: 2;
 }
 #one {
   background-color: red;
+  order: 1;
 }
 
 
@@ -39,18 +37,8 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 #one {
   height: 100vw;
   width: 100vw;
-}
+  color: white;
 
-#three {
-  order: 3;
-}
-
-#two {
-  order: 2;
-}
-
-#one {
-  order: 1;
 }
 
 @media screen and (min-width: 600px) {
