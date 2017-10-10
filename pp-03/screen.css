@@ -30,12 +30,14 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 #content {
   display: flex;
   flex direction: row;
+  flex-flow: wrap;
 }
 
 #three,
 #two,
 #one {
-
+  height: 100vw;
+  width: 100vw;
 }
 
 #three {
