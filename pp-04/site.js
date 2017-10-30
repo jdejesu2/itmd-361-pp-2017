@@ -50,8 +50,12 @@ console.log(typeof i); // should be 'undefined', not 3
 
 function addTwo(x) {
   x = x + 2;
-  return x;
+  return x; // this variable is declard inside of the funtion so it makes it a
+  //local function and not a global one; same concept as previous questions
 }
 
 console.log(addTwo(4)); // 6
 console.log(x); // should be 5 if you corrected the double() function above
+
+//when sometime is declared outside of a function, it makes it a global;
+//so if a variable is declard outside, it's would be a global variable
