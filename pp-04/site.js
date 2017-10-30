@@ -19,15 +19,15 @@ console.log('The value of x is:', x, 'It should be 5.');
 //  like `window.x`):
 
 (function(){
-var x = 5;
+  var x = 5;
 
-function double(num) {
-  var x = num * 2;
-  return x;
-}
+  function double(num) {
+    var x = num * 2;
+    return x;
+  }
 
-double(6);
-console.log('The value of x is:', x, 'It should be 5.');
+  double(6);
+  console.log('The value of x is:', x, 'It should be 5.');
 })();
 
 //  3. Correct this function so that there is no i variable in
@@ -40,7 +40,7 @@ function arrayEach(array, func) {
   }
 }
 
-arrayEach(['red','green','blue'], console.log);
+arrayEach(['red', 'green', 'blue'], console.log);
 
 console.log(typeof i); // should be 'undefined', not 3
 
@@ -51,11 +51,11 @@ console.log(typeof i); // should be 'undefined', not 3
 function addTwo(x) {
   x = x + 2;
   return x; // this variable is declard inside of the funtion so it makes it a
-  //local function and not a global one; same concept as previous questions
+  // local function and not a global one; same concept as previous questions
 }
 
 console.log(addTwo(4)); // 6
 console.log(x); // should be 5 if you corrected the double() function above
 
-//when sometime is declared outside of a function, it makes it a global;
-//so if a variable is declard outside, it's would be a global variable
+// when sometime is declared outside of a function, it makes it a global;
+// so if a variable is declard outside, it's would be a global variable
