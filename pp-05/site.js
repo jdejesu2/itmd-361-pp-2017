@@ -3,9 +3,10 @@ function ringDoorbell() {
   doorbell.play();
 }
 
-ringdoorbell.addEventListener("click", function(){
+ringDoorbell.addEventListener("click", function(){
   ringDoorbell();
 });
+
 
 $(document).on("keypress", function(press) {
   if (press.key === "d") {
