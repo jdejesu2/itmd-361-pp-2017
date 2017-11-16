@@ -6,3 +6,9 @@ function ringDoorbell() {
 ringdoorbell.addEventListener("click", function(){
   ringDoorbell();
 });
+
+$(document).on("keypress", function(press) {
+  if (press.key === "d") {
+    ringDoorbell();
+  }
+});
